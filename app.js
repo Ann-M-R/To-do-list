@@ -14,7 +14,7 @@
 
     app.set('view engine', 'ejs');
 
-    mongoose.connect("mongodb+srv://Ann:Einstein@cluster0.ri7hzm6.mongodb.net/todolistDB");
+    mongoose.connect("mongodb+srv://Ann:oSqwls0gHjzidfX3@cluster0.ri7hzm6.mongodb.net/todolistDB");
 
     const taskSchema = new mongoose.Schema({
       name: String
